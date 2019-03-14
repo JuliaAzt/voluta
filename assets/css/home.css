@@ -1,0 +1,42 @@
+.logo
+{
+    width: 5%;
+
+}
+.wrapper{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.wrapper li {
+    margin-top: 10px;
+    font-family: 'SF UI Display Medium';
+
+}
+.background1{
+     
+   background-image: url("../img/backgroundp1.png")  !important;
+   background-repeat: no-repeat;
+   background-size: 100% !important;
+
+ 
+}
+
+.subtitulo{
+    font-family: 'SF UI Display Bold';
+    font-size: 35px;
+
+}
+.secao1 span{
+
+    font-family: 'SF UI Display Light';
+    font-size: 15px;
+}
+.margem-nav{
+     margin-top: 70px;
+}
+.orcamento{
+    font-family: 'SF UI Display Light';
+    background-color: #008EC2;
+    color:white;
+    font-size: 15px;
+}

@@ -6,66 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Collapsible sidebar using Bootstrap 4</title>
+    <title>Voluta Soluções Digitais</title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="style.css">
 
+    
+   
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="<?php echo base_url('assets/css/home.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/SFUI_font.css')?>">
+
+
 </head>
-<style type="text/css">
 
-.logo
-{
-    width: 5%;
 
-}
-.wrapper{
-    margin-top: 70px;
-    margin-left: 50px;
-}
-.wrapper li {
-    margin-top: 10px;
-
-}
-</style>
 <body >
 
     <nav class="container navbar">
         <img class="logo navbar-brand" src="<?php echo base_url('assets/logo.png') ?>" alt="logo">
     </nav>
         <!-- Sidebar -->
-    <div class="wrapper">
-
+  <div class="background1 ">
+    <div class=" row">
+    <div class="col-md-2  ">
+      <div class="wrapper">
             <ul class="list-unstyled components">
                <li>
-                  <a> Início </a>
+                  <a href="#"> Início </a>
                </li>
                <li>
-                  <a> Serviços </a>
+                  <a href="#"> Serviços </a>
                </li>
                <li>
-                   <a>Projetos </a>
+                <a href="#">Projetos </a>
                </li>
                <li>
-                   <a>Orçamentos </a>
+                   <a href="#">Orçamentos </a>
                </li>
                <li>
-                  <a> Equipe </a>
+                  <a href="#"> Equipe </a>
                </li>
                <li>
-                  <a> Contato </a>
+                  <a href="#"> Contato </a>
                </li>
             </ul>
         
+            </div>
+    </div>
+    <div class="col-md-4 secao1 margem-nav">
+     <span> Esqueça o papel</span>
+     <div class="subtitulo">Nós temos o que você precisa</div>
+     <span> A Voluta Soluções Digitais deseja proporcionar oportunidades
+      de acesso e aprimoramento à tecnologia para as micro e
+      pequenas empresas, promovendo aprendizado e visão 
+      empreendedora para os alunos que nela colaboram.</span> 
+      <br>
+      <br>   
+      <button class="btn btn-button orcamento">Solicite um orçamento</button> 
+    </div>
+    <div class="col-md-6"> <img class="col-md-12" src="<?php echo base_url('assets/img/secao1itens2x.png')?>"></div>
 
     </div>
 
-
+</div>
 
 </body>
     <!-- jQuery CDN - Slim version (=without AJAX) -->
