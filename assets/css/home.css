@@ -40,3 +40,66 @@
     color:white;
     font-size: 15px;
 }
+
+.secao2 div.subtitulo{
+     font-family: 'SF UI Display Bold';
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.secao2 .col-md-3 span{
+
+ font-size: 15px;
+
+}
+.secao2 .col-md-4 span:first-child{
+   
+
+ font-size: 25px;
+
+}
+.secao2 .col-md-4{
+
+ text-align: center;
+ 
+}
+.secao2{
+    vertical-align: middle;
+}
+
+
+.secao3 .col-md-3 span{
+
+ font-size: 15px;
+
+}
+.secao3 .col-md-4 span:first-child{
+   
+
+ font-size: 25px;
+
+}
+
+.secao3{
+    vertical-align: middle;
+}
+
+.secao4 .col-md-3 span{
+
+ font-size: 15px;
+
+}
+.secao4 .col-md-4 span:first-child{
+   
+
+ font-size: 25px;
+
+}
+
+.secao4{
+    vertical-align: middle;
+}

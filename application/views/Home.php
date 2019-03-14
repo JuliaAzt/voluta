@@ -28,50 +28,91 @@
     <nav class="container navbar">
         <img class="logo navbar-brand" src="<?php echo base_url('assets/logo.png') ?>" alt="logo">
     </nav>
-        <!-- Sidebar -->
-  <div class="background1 ">
-    <div class=" row">
-    <div class="col-md-2  ">
-      <div class="wrapper">
-            <ul class="list-unstyled components">
-               <li>
-                  <a href="#"> Início </a>
-               </li>
-               <li>
-                  <a href="#"> Serviços </a>
-               </li>
-               <li>
-                <a href="#">Projetos </a>
-               </li>
-               <li>
-                   <a href="#">Orçamentos </a>
-               </li>
-               <li>
-                  <a href="#"> Equipe </a>
-               </li>
-               <li>
-                  <a href="#"> Contato </a>
-               </li>
-            </ul>
-        
-            </div>
-    </div>
-    <div class="col-md-4 secao1 margem-nav">
-     <span> Esqueça o papel</span>
-     <div class="subtitulo">Nós temos o que você precisa</div>
-     <span> A Voluta Soluções Digitais deseja proporcionar oportunidades
-      de acesso e aprimoramento à tecnologia para as micro e
-      pequenas empresas, promovendo aprendizado e visão 
-      empreendedora para os alunos que nela colaboram.</span> 
-      <br>
-      <br>   
-      <button class="btn btn-button orcamento">Solicite um orçamento</button> 
-    </div>
-    <div class="col-md-6"> <img class="col-md-12" src="<?php echo base_url('assets/img/secao1itens2x.png')?>"></div>
+<div class="background1 ">
+  <!-- inicio da primeira fileira  -->
+   <div class=" row">
+      <div class="col-md-2  ">
+        <div class=" wrapper">
+              <ul class="list-unstyled components">
+                 <li>
+                    <a href="#"> Início </a>
+                 </li>
+                 <li>
+                    <a href="#"> Serviços </a>
+                 </li>
+                 <li>
+                  <a href="#">Projetos </a>
+                 </li>
+                 <li>
+                     <a href="#">Orçamentos </a>
+                 </li>
+                 <li>
+                    <a href="#"> Equipe </a>
+                 </li>
+                 <li>
+                    <a href="#"> Contato </a>
+                 </li>
+              </ul>
+          
+              </div>
+      </div>
+      <div class="col-md-4 secao1 margem-nav">
+         <span> Esqueça o papel</span>
+         <div class="subtitulo">Nós temos o que você precisa</div>
+         <span> A Voluta Soluções Digitais deseja proporcionar oportunidades
+          de acesso e aprimoramento à tecnologia para as micro e
+          pequenas empresas, promovendo aprendizado e visão 
+          empreendedora para os alunos que nela colaboram.</span> 
+          <br>
+          <br>   
+          <button class="btn btn-button orcamento">Solicite um orçamento</button> 
+      </div>
+      <div class="col-md-5  "> 
+        <img class="col-md-12" src="<?php echo base_url('assets/img/secao1itens2x.png')?>">
+      </div>
 
-    </div>
+  </div> 
+  <br>
+  <!-- inicio da segunda fileira  -->
+  <div class=" row secao2">
+      <div class=" col-md-12 subtitulo">Nossos serviços</div> 
+      <div class="col-md-2  wrapper"> 
+        <img class="col-md-10" src="<?php echo base_url('assets/img/secao2itens2x.png')?>">
+      </div>
+      <div class=" col-md-4">
+        <span> Desenvolvimento de aplicativos para Android e IOS</span><br>
+         <span>Você e sua empresa mais conectada e produtiva.</span>
+      </div>
+    
+  </div>
+    <!-- inicio da terceira fileira  -->
+  <div class="row secao3 d-flex flex-row-reverse">
+      <div class="col-md-3  wrapper"> 
+        <img class="col-md-12" src="<?php echo base_url('assets/img/undraw_tabs_jf82.png')?>">
+      </div>
+      <div class=" col-md-4 ">
+        <span> Websites e sistemas web</span><br>
+         <span>Conecte-se com seus cliente de forma rápida e eficiente. Mantenha controle de tudo o que acontece em sua empresa.</span>
+      </div>
+      
 
-</div>
+  </div>
+    <!-- inicio da quarta fileira  -->
+  <div class=" row secao4">
+      <div class="col-md-4  wrapper"> 
+        <img class="col-md-10" src="<?php echo base_url('assets/img/undraw_followers_4i0p@2x.png')?>">
+      </div>
+      <div class=" col-md-4">
+        <span> Consultoria</span><br>
+         <span>Saiba como utilizar ferramentas e tecnologias capazes
+de desenvolver seu negócio.</span>
+      </div>
+    
+  </div>
+
+
+
+  </div>
 
 </body>
     <!-- jQuery CDN - Slim version (=without AJAX) -->
