@@ -11,6 +11,6 @@ class Home extends CI_Controller {
     // Função que exibe a página inicial.
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$this->load->view('Home');
 	}
 }

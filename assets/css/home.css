@@ -1,0 +1,105 @@
+.logo
+{
+    width: 5%;
+
+}
+.wrapper{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.wrapper li {
+    margin-top: 10px;
+    font-family: 'SF UI Display Medium';
+
+}
+.background1{
+     
+   background-image: url("../img/backgroundp1.png")  !important;
+   background-repeat: no-repeat;
+   background-size: 100% !important;
+
+ 
+}
+
+.subtitulo{
+    font-family: 'SF UI Display Bold';
+    font-size: 35px;
+
+}
+.secao1 span{
+
+    font-family: 'SF UI Display Light';
+    font-size: 15px;
+}
+.margem-nav{
+     margin-top: 70px;
+}
+.orcamento{
+    font-family: 'SF UI Display Light';
+    background-color: #008EC2;
+    color:white;
+    font-size: 15px;
+}
+
+.secao2 div.subtitulo{
+     font-family: 'SF UI Display Bold';
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.secao2 .col-md-3 span{
+
+ font-size: 15px;
+
+}
+.secao2 .col-md-4 span:first-child{
+   
+
+ font-size: 25px;
+
+}
+.secao2 .col-md-4{
+
+ text-align: center;
+ 
+}
+.secao2{
+    vertical-align: middle;
+}
+
+
+.secao3 .col-md-3 span{
+
+ font-size: 15px;
+
+}
+.secao3 .col-md-4 span:first-child{
+   
+
+ font-size: 25px;
+
+}
+
+.secao3{
+    vertical-align: middle;
+}
+
+.secao4 .col-md-3 span{
+
+ font-size: 15px;
+
+}
+.secao4 .col-md-4 span:first-child{
+   
+
+ font-size: 25px;
+
+}
+
+.secao4{
+    vertical-align: middle;
+}
