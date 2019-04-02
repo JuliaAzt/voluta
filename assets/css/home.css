@@ -103,3 +103,47 @@
 .secao4{
     vertical-align: middle;
 }
+img.carousel-imagens {
+  
+    height:200px;
+    width: 330px;   
+}
+.carousel-item.active{
+       margin-left:37.5%;
+        width: 330px;
+}
+.carousel-item{
+    margin-left:37.5%;
+    width: 340px;
+    height: 450px;
+   -webkit-box-shadow: 9px 9px 11px 0px rgba(214,214,214,1);
+    -moz-box-shadow: 9px 9px 11px 0px rgba(214,214,214,1);
+    box-shadow: 9px 9px 11px 0px rgba(214,214,214,1);
+}
+.corousel-indicators{
+     height: 30px;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+.carousel-indicators .active{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #009AD2;
+}
+.carousel-indicators li{
+    background-color: #89D7F3;
+    margin-left: 10px;
+    margin-right: 10px; 
+    width: 15px;
+    border-radius: 100px;
+    height: 15px;
+}
+.botao-saiba-mais{
+    margin-top: 15px;
+    background-color: #38D39F;
+    border-radius: 50px;
+    color: white; 
+}
+.carousel-inner{
+    overflow: visible;
+}
