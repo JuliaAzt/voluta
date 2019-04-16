@@ -1,9 +1,9 @@
 
 <body >
 
-    <nav class="container navbar">
+    <div class="container navbar ">
         <img class="logo navbar-brand" src="<?php echo base_url('assets/logo.png') ?>" alt="logo">
-    </nav>
+    </div>
 <div class="background1 ">
   <!-- inicio da primeira fileira  -->
    <div class=" row">
@@ -23,7 +23,7 @@
                      <a href="#">Orçamentos </a>
                  </li>
                  <li>
-                    <a href="#"> Equipe </a>
+                    <a href="<?php echo base_url('Members') ?>"> Equipe </a>
                  </li>
                  <li>
                     <a href="#"> Contato </a>
@@ -86,6 +86,7 @@ de desenvolver seu negócio.</span>
     
   </div>
 </div>
+<div  class="background2">
 
 <center><div class="subtitulo">Projetos</div></center>
 <!-- ................................CARROSSEL................................................. -->
@@ -139,7 +140,7 @@ de desenvolver seu negócio.</span>
     </div>
 <!-- CARROSSEL FIM +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=====-->
 <div>
-  
+</div>
 
 
 os países de língua inglesa o texto apresenta-se em forma um pouco diferente, apresentada a seguir:

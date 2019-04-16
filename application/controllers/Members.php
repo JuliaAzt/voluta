@@ -16,3 +16,4 @@ class Members extends CI_Controller {
         $this->load->view('/template/html-footer.php');
     }
 }
+?>
