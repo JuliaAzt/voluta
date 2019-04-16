@@ -1,33 +1,9 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>Voluta Soluções Digitais</title>
-
-    <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
-    
-   
-    <!-- Font Awesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-     <link rel="stylesheet" href="<?php echo base_url('assets/css/home.css') ?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/SFUI_font.css')?>">
-
-
-</head>
-
 
 <body >
 
-    <nav class="container navbar">
+    <div class="container navbar ">
         <img class="logo navbar-brand" src="<?php echo base_url('assets/logo.png') ?>" alt="logo">
-    </nav>
+    </div>
 <div class="background1 ">
   <!-- inicio da primeira fileira  -->
    <div class=" row">
@@ -47,7 +23,7 @@
                      <a href="#">Orçamentos </a>
                  </li>
                  <li>
-                    <a href="#"> Equipe </a>
+                    <a href="<?php echo base_url('Members') ?>"> Equipe </a>
                  </li>
                  <li>
                     <a href="#"> Contato </a>
@@ -109,17 +85,80 @@ de desenvolver seu negócio.</span>
       </div>
     
   </div>
+</div>
+<div  class="background2">
+
+<center><div class="subtitulo">Projetos</div></center>
+<!-- ................................CARROSSEL................................................. -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="carousel-imagens" src="<?php echo base_url('assets/img/ICEB.png')?>" >
+           <span>
+            <div>ICEB</div>
+            <span>O Instituto de Ciências Exatas e Biológicas da Universidade Federal de 
+            Ouro Preto, planejou para o aniversário do mesmo, uma reformulação do
+            seu site
+          </span>
+          </span>
+          <center><button class="btn btn default botao-saiba-mais">Saiba mais</button></center>
+        </div>
+       <div class="carousel-item ">
+          <img class="carousel-imagens" src="<?php echo base_url('assets/img/ICEB.png')?>" >
+           <span>
+            <div>ICEB</div>
+            <span>O Instituto de Ciências Exatas e Biológicas da Universidade Federal de 
+            Ouro Preto, planejou para o aniversário do mesmo, uma reformulação do
+            seu site
+          </span>
+          </span>
+          <center><button class="btn btn default botao-saiba-mais">Saiba mais</button></center>
+        </div>
+
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
 
 
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+         <li data-target="#demo" data-slide-to="3"></li>
+      </ul>
+
+
+    </div>
+<!-- CARROSSEL FIM +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=====-->
+<div>
+</div>
+
+
+os países de língua inglesa o texto apresenta-se em forma um pouco diferente, apresentada a seguir:
+
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+Sua tradução para o português seria:
+
+"Aquele que ama ou exerce ou deseja a dor, pode ocasionalmente adquirir algum prazer na labuta. Para dar um exemplo trivial, qual de nós se submete a laborioso exercício físico, exceto para obter alguma vantagem com isso. Desmoralizado pelos encantos do prazer, percebe que a dor não resulta em prazer algum. Está tão cego pelo desejo que não pode prever quem não cumprirá seu dever por fraqueza de vontade."
+Uso
+Lorem ipsum é um texto padrão em latim. Em documentos utilizados para testes, este tipo de texto é utilizado para evitar que as pessoas foquem a atenção no texto e se concentrem nos aspectos visuais. O lorem ipsum simula com razoável fidelidade um texto real, por possuir palavras de diversos tamanhos e sinais de pontuação, permitindo testar também a forma como o texto flui nas caixas e campos de formatação.[1]
+.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
   </div>
 
 </body>
-    <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <!-- Popper.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
-</html>
