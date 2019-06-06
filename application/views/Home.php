@@ -1,38 +1,8 @@
 
-<body >
+  
 
-    <div class="container navbar ">
-        <img class="logo navbar-brand" src="<?php echo base_url('assets/logo.png') ?>" alt="logo">
-    </div>
 <div class="background1 ">
-  <!-- inicio da primeira fileira  -->
-   <div class=" row">
-      <div class="col-md-2  ">
-        <div class=" wrapper">
-              <ul class="list-unstyled components">
-                 <li>
-                    <a href="#"> Início </a>
-                 </li>
-                 <li>
-                    <a href="#"> Serviços </a>
-                 </li>
-                 <li>
-                  <a href="#">Projetos </a>
-                 </li>
-                 <li>
-                     <a href="#">Orçamentos </a>
-                 </li>
-                 <li>
-                    <a href="<?php echo base_url('Members') ?>"> Equipe </a>
-                 </li>
-                 <li>
-                    <a href="#"> Contato </a>
-                 </li>
-              </ul>
-          
-              </div>
-      </div>
-      <div class="col-md-4 secao1 margem-nav">
+      <div class="col-md-4 secao1 margem-nav" >
          <span> Esqueça o papel</span>
          <div class="subtitulo">Nós temos o que você precisa</div>
          <span> A Voluta Soluções Digitais deseja proporcionar oportunidades
@@ -47,7 +17,7 @@
         <img class="col-md-12" src="<?php echo base_url('assets/img/secao1itens2x.png')?>">
       </div>
 
-  </div> 
+  
   <br>
   <!-- inicio da segunda fileira  -->
   <div class=" row secao2">

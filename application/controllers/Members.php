@@ -12,6 +12,7 @@ class Members extends CI_Controller {
     public function index()
     {
         $this->load->view('/template/html-header.php');
+        $this->load->view('/template/aside.php');
         $this->load->view('Members');
         $this->load->view('/template/html-footer.php');
     }
